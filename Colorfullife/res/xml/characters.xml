@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<resources> 
+    <character>
+        <name>石头</name>
+        <info>非常开朗的男生,有一点顽固,不然怎么叫石头呢.</info>
+        <note>石头在每一回合开始时可以恢复1点体力值</note>
+        <money>2000</money>    
+        <maxhp>10</maxhp>
+        <characterid>1</characterid>   
+        <faceid>1</faceid>
+        <features>
+           	<muscle_man>true</muscle_man>
+        </features>
+        <talks>
+	        <goodevent>太棒了!</goodevent>
+	        <goodevent>势如破竹！</goodevent>
+	        <goodevent>一马当先！</goodevent>
+	        <goodevent>继续前进！</goodevent>
+	        <goodevent>人品好没办法！</goodevent>
+	        
+	        <badevent>唉...不说了</badevent>
+	        <badevent>都是泪啊</badevent>
+	        <badevent>真是世风日下,道德沦丧</badevent>
+	        <badevent>真是喝凉水也塞牙</badevent>
+	        <badevent>天理何在</badevent>
+	        
+	        <turn_start>终于到我了!</turn_start>
+	        <turn_start>走你!</turn_start>
+	        <turn_start>让我来</turn_start>
+	        <turn_start>我来也，看哥的厉害！</turn_start>
+	        
+	        <turn_end>蛋疼.</turn_end>
+	        <turn_end>还没过完瘾呢</turn_end>
+	        
+	        <turn_skip>不要扔下我!</turn_skip>
+	        <turn_skip>养精蓄锐！</turn_skip>
+	        <turn_skip>忍心留下我一个人！</turn_skip>
+	        
+	        <oppoment_goodevent>有这等好事?</oppoment_goodevent>
+	        <oppoment_goodevent>别高兴太早</oppoment_goodevent>
+	        <oppoment_goodevent>好戏还在后面</oppoment_goodevent>
+	        
+	        <oppoment_badevent>哈哈</oppoment_badevent>
+	        <oppoment_badevent>还是看我表演吧</oppoment_badevent>
+	        <oppoment_badevent>你该休息会了</oppoment_badevent>
+        </talks>
+    </character>
+	<character>
+        <name>阿杰</name>
+        <money>2000</money> 
+        <info>阿杰的头脑非常聪明,事情都在阿杰的意料之内发生.</info>
+        <note>阿杰在[学生时期]获得学分时能再额外获得1点学分</note>
+        <maxhp>10</maxhp> 
+        <characterid>2</characterid>   
+        <faceid>2</faceid>    
+        <features>
+            <study_king>true</study_king>
+        </features>
+        <talks>
+	        <goodevent>和计划好的一样.</goodevent>
+	        <goodevent>不出我所料.</goodevent>
+	        <goodevent>不以物喜.</goodevent>
+	        <goodevent>天助我也</goodevent>
+	        <goodevent>着实厉害</goodevent>
+
+	        <badevent>意外,都是意外...</badevent>
+	        <badevent>居然算错了?!</badevent>
+	        <badevent>天命?!</badevent>
+	        <badevent>不以己悲</badevent>
+	        <badevent>怎么会是这样...</badevent>
+	        
+	        <turn_start>你们都看好了.</turn_start>
+	        <turn_start>黄金时间.</turn_start>
+	        <turn_start>全速前进!</turn_start>
+	        <turn_start>小试牛刀</turn_start>
+	        
+	        <turn_end>无聊</turn_end>
+	        <turn_end>看书去</turn_end>
+ 
+	        <turn_skip>后来者居上</turn_skip>
+	        <turn_skip>哼哼.放你们先走.</turn_skip>
+	        <turn_skip>哎，等等你们吧！</turn_skip>
+	        
+	        <oppoment_goodevent>无法直视！</oppoment_goodevent>
+	        <oppoment_goodevent>怎么可能</oppoment_goodevent>
+	        <oppoment_goodevent>别太嚣张</oppoment_goodevent>
+	        
+	        <oppoment_badevent>挡都挡不住</oppoment_badevent>
+	        <oppoment_badevent>点个赞</oppoment_badevent>
+	        <oppoment_badevent>建议取缔</oppoment_badevent>
+	    </talks>  
+    </character>
+    <character>
+        <name>亨利</name>
+        <money>4000</money>
+        <info>刚刚移居来中国的外国人,还不会说中文.</info>
+        <note>亨利在游戏开始时比其他人多2000现金</note>
+        <maxhp>10</maxhp>  
+        <characterid>3</characterid>   
+        <faceid>3</faceid>     
+        <features>
+            <rich_man>true</rich_man>
+        </features>
+        <talks>
+	        <goodevent>Nice!</goodevent>
+	        <goodevent>Unbelievable!</goodevent>
+	        <goodevent>I am so Happy!</goodevent>
+	        <goodevent>Oh yeah</goodevent>
+	        <goodevent>Goodness!</goodevent>
+	        
+	        <badevent>Ah...damn it!</badevent>
+	        <badevent>OMG?</badevent>
+	        <badevent>Oh my Lady Gaga!</badevent>
+	        <badevent>Oh...NO!</badevent>
+	        <badevent>What the hell?</badevent>
+	         
+	        <turn_start>Hurry up!</turn_start>
+	        <turn_start>Check it now!</turn_start>
+	        <turn_start>It is show time!</turn_start>
+	        <turn_start>Party time！</turn_start>
+	        
+	        <turn_end>What?</turn_end>
+	        <turn_end>Humm..</turn_end>
+	        
+	        <turn_skip>Lady First.</turn_skip>
+	        <turn_skip>Boring</turn_skip>
+	        <turn_skip>Ah..Come on..</turn_skip>
+	        
+	        <oppoment_goodevent>Hey!</oppoment_goodevent>
+	        <oppoment_goodevent>Naive</oppoment_goodevent>
+	        <oppoment_goodevent>Too simple</oppoment_goodevent>
+	        
+	        <oppoment_badevent>Yeah..</oppoment_badevent>
+	        <oppoment_badevent>Excellent</oppoment_badevent>
+	        <oppoment_badevent>Opps</oppoment_badevent>
+        </talks>  
+    </character>
+    <character>
+        <name>小汪</name>
+        <money>2000</money> 
+        <info>小汪的记忆力非常好,什么东西都可以做到过目不忘.</info>
+        <note>小汪在[学生时期]获得学分时能再额外获得1点学分</note>   
+        <maxhp>10</maxhp>
+        <characterid>4</characterid>   
+        <faceid>4</faceid>  
+        <features>
+           <study_king>true</study_king>
+        </features>
+        <talks>
+	        <goodevent>欧耶!</goodevent>
+	        <goodevent>太给力了!</goodevent>
+	        <goodevent>真是太厉害了！</goodevent>
+	        <goodevent>小宇宙爆发咯</goodevent>
+	        <goodevent>势不可挡</goodevent>
+
+	        <badevent>呜呜呜...</badevent>
+	        <badevent>伤心啊...</badevent>
+	        <badevent>怎么能这样...</badevent>
+	        <badevent>真倒霉！</badevent>
+	        <badevent>讨厌！</badevent>
+	        
+	        <turn_start>到我了!</turn_start>
+	        <turn_start>开始喽~</turn_start>
+	        <turn_start>来吧!</turn_start>
+	        <turn_start>走起！</turn_start>
+	        
+	        <turn_end>嗯?</turn_end>
+	        <turn_end>不可能!</turn_end>
+	        
+	        <turn_skip>好困,睡个觉</turn_skip>
+	        <turn_skip>打个电话</turn_skip>
+	        <turn_skip>休息会儿</turn_skip>
+	        
+	        <oppoment_goodevent>我也想要!</oppoment_goodevent>
+	        <oppoment_goodevent>不错嘛!</oppoment_goodevent>
+	        <oppoment_goodevent>厉害...</oppoment_goodevent>
+	        
+	        <oppoment_badevent>天意难为!</oppoment_badevent>
+	        <oppoment_badevent>我来教教你吧!</oppoment_badevent>
+	        <oppoment_badevent>真搞笑..</oppoment_badevent>
+        </talks>  
+    </character>
+    <character>
+        <name>静香</name>
+        <money>4000</money>  
+        <info>名门出身的女生,知书达礼,温文尔雅.不过有点小脾气.</info>
+        <note>静香在游戏开始时比其他人多2000现金</note>
+        <maxhp>10</maxhp>  
+        <characterid>5</characterid>   
+        <faceid>5</faceid>  
+        <features>
+            <rich_man>true</rich_man>
+        </features>
+        <talks>
+	        <goodevent>嗯,还不错.</goodevent>
+	        <goodevent>好的!</goodevent>
+	        <goodevent>继续保持！</goodevent>
+	        <goodevent>继续,继续</goodevent>
+	        <goodevent>正合我意</goodevent>
+	        
+	        <badevent>糟透了!</badevent>
+	        <badevent>纳尼?</badevent>	
+	        <badevent>真倒霉...</badevent>	
+	        <badevent>可恶...</badevent>	
+	        <badevent>出师不利</badevent>	
+	                
+	        <turn_start>锵锵锵锵!</turn_start>
+	        <turn_start>天气不错,出来逛逛~</turn_start>
+	        <turn_start>你们看好了...</turn_start>
+	        <turn_start>睁大你们的眼睛...</turn_start>
+	        
+	        <turn_end>浪费时间</turn_end>
+	        <turn_end>没法玩了</turn_end>
+	         
+	        <turn_skip>洗澡去...</turn_skip>
+	        <turn_skip>谁顺便把我捡起吧...</turn_skip>
+	        <turn_skip>烦死了,休息</turn_skip>
+	        
+	        <oppoment_goodevent>运气好而已...</oppoment_goodevent>
+	        <oppoment_goodevent>怎么可能是真的!</oppoment_goodevent>
+	        <oppoment_goodevent>不会吧...</oppoment_goodevent>
+	        
+	        <oppoment_badevent>看吧</oppoment_badevent>
+	        <oppoment_badevent>天意</oppoment_badevent>
+	        <oppoment_badevent>哇</oppoment_badevent>
+        </talks>  
+    </character>
+    <character>
+        <name>尼安</name>
+        <money>2000</money>  
+        <info>活力十足的女生,喜欢打网球.</info>
+        <note>尼安在每一回合开始时可以恢复1点体力值</note>  
+        <maxhp>10</maxhp>
+        <characterid>6</characterid>   
+        <faceid>6</faceid>  
+        <features>
+           <muscle_man>true</muscle_man>
+        </features>
+        <talks>
+	        <goodevent>Lucky~</goodevent>
+	        <goodevent>帅呆了!</goodevent>
+	        <goodevent>WUHA~</goodevent>
+	        <goodevent>闪开~让我来!</goodevent>
+	        <goodevent>我才是主角!</goodevent>
+	        
+	        <badevent>真难过...</badevent>
+	        <badevent>弱爆了!</badevent>
+	        <badevent>闭关修炼!</badevent>	
+	        <badevent>伤心...</badevent>	
+	        <badevent>不公平...</badevent>	
+	           	        
+	        <turn_start>嚯!</turn_start>
+	        <turn_start>幸运的一天开始喽!</turn_start>
+	        <turn_start>看我的厉害！</turn_start>
+	        <turn_start>终于到我出手了</turn_start>
+	          
+	        <turn_end>万事大吉~</turn_end>
+	        <turn_end>唉,不想玩了</turn_end>
+	        
+	        <turn_skip>唉!算了!打球打球!</turn_skip>
+	        <turn_skip>唉,没办法了</turn_skip>
+	        <turn_skip>休息,休息</turn_skip>
+	        
+	        <oppoment_goodevent>是不是开挂?</oppoment_goodevent>
+	        <oppoment_goodevent>走着瞧</oppoment_goodevent>
+	        <oppoment_goodevent>小心点</oppoment_goodevent>
+	        
+	        <oppoment_badevent>知道错了吧！</oppoment_badevent>
+	        <oppoment_badevent>做人要低调！</oppoment_badevent>
+	        <oppoment_badevent>嘿嘿...</oppoment_badevent>
+        </talks>  
+    </character>
+</resources>

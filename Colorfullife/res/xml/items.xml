@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item>
+        <name>遥控骰子</name>
+        <info>可以随意控制你投出的点数</info>
+        <spid>248</spid>
+    </item>
+    <item>
+        <name>换位棒</name>
+        <info>与一名玩家交换位置</info>
+        <spid>249</spid>
+    </item>
+     <item>
+        <name>急速涡轮</name>
+        <info>行走的步数翻倍</info>
+        <spid>250</spid>
+    </item>
+     <item>
+        <name>超级药水</name>
+        <info>立即获得两个额外的回合,但是跳过你的下一回合</info>
+        <spid>251</spid>
+    </item>
+     <item>
+        <name>时间沙漏</name>
+        <info>三回合内只能投出1点</info>
+        <spid>252</spid>
+    </item>
+     <item>
+        <name>大汉堡</name>
+        <info>回复体力至上限值</info>
+        <spid>253</spid>
+    </item>
+</resources>
